@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Adicione isso no seu arquivo CSS */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Cor de fundo da trilha */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888888c7; /* Cor da barra de rolagem */
+  
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #919191; /* Cor ao passar o mouse */
+}
