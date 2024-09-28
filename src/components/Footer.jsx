@@ -4,7 +4,7 @@ import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
 
 function Footer() {
   return (
-    <div className='flex flex-col gap-8 pb-8 px-4'>
+    <div className='flex flex-col gap-8 pb-8'>
 
         <div className='flex gap-16 py-10'>
             <InfosFooter titulo={"Empresa"} texto1={"Sobre"} texto2={"Empregos"} texto3={"For the Record"}/>

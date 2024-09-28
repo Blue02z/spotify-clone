@@ -16,8 +16,8 @@ function Item({img, titulo, subtitulo, artista}) {
                 
                 <img src={img} alt="" className='rounded-full w-[150px] h-[150px]'/>
             </div>
-                <h2 className='text-[16px] text-white font-[600]'>{titulo}</h2>
-                <p className='text-[#b3b3b3] text-[15px] font-[450]'>{subtitulo}</p>
+                <h2 className='text-[16px] text-white font-[600] hover:cursor-pointer hover:underline'>{titulo}</h2>
+                <p className='text-[#b3b3b3] text-[15px] font-[450] hover:cursor-pointer hover:underline'>{subtitulo}</p>
             </div>
 
             :
@@ -32,8 +32,8 @@ function Item({img, titulo, subtitulo, artista}) {
                 
                 <img src={img} alt="" className='rounded-[8px] w-[150px] h-[150px]'/>
             </div>
-            <h2 className='text-[16px] text-white font-[600]'>{titulo}</h2>
-            <p className='text-[#b3b3b3] text-[15px] font-[450]'>{subtitulo}</p>
+            
+            <p className='text-[#b3b3b3] text-[15px] font-[450] hover:cursor-pointer hover:underline'>{subtitulo}</p>
         </div>
             }
         
