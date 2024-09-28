@@ -6,7 +6,7 @@ function Item({img, titulo, subtitulo, artista}) {
   return (
     <div>
             {
-                artista === true ? <div onMouseEnter={e => setShow(true)} onMouseLeave={e => setShow(false)} className='flex flex-col hover:cursor-pointer hover:bg-[hsla(0,0%,100%,.05)] p-4 hover:rounded-[8px] gap-2 justify-start max-w-[200px]'>
+                artista === true ? <div onMouseEnter={e => setShow(true)} onMouseLeave={e => setShow(false)} className='flex flex-col hover:cursor-pointer hover:bg-[hsla(0,0%,100%,.05)] p-2 hover:rounded-[8px] gap-2 justify-start max-w-[200px]'>
                 <div className='flex justify-end sticky items-end'>
                 {
                     showPlay === true ?  <div className='ease-in bg-[#1ed760] flex justify-center absolute items-center w-[50px] h-[50px] rounded-full'>
@@ -22,7 +22,7 @@ function Item({img, titulo, subtitulo, artista}) {
 
             :
 
-            <div onMouseEnter={e => setShow(true)} onMouseLeave={e => setShow(false)} className='flex flex-col hover:cursor-pointer hover:bg-[hsla(0,0%,100%,.05)] p-4 hover:rounded-[8px] gap-2 justify-start max-w-[200px]'>
+            <div onMouseEnter={e => setShow(true)} onMouseLeave={e => setShow(false)} className='flex flex-col hover:cursor-pointer hover:bg-[hsla(0,0%,100%,.05)] p-2 hover:rounded-[8px] gap-2 justify-start max-w-[200px]'>
             <div className='flex justify-end sticky items-end'>
                 {
                     showPlay === true ?  <div className='ease-in bg-[#1ed760] flex justify-center absolute items-center w-[50px] h-[50px] rounded-full'>

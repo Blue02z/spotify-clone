@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[black]'>
+      <div className='bg-[black] pb-12'>
         <NavBar/>
         <div className='flex mx-2 gap-2 h-[550px] justify-center'>
           <Aside/>

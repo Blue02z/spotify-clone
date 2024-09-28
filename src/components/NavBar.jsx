@@ -19,7 +19,7 @@ function NavBar() {
 
             <div className='flex items-center ml-52 gap-2'>
                 <div className='bg-[#1f1f1f] flex justify-center items-center h-[48px] hover:scale-[1.1] cursor-pointer ease-linear duration-100 rounded-full w-[48px]'>
-                    <GrHomeRounded size={24} color='#b3b3b3'/>
+                    <GrHomeRounded fill='white' size={24} color='white'/>
                 </div>
 
                 <div className={`w-[490px] flex items-center cursor-pointer h-[48px] ${outline === true ? "border-2 bg-[hsla(0,0%,100%,.3)] border-white" : "border-none bg-[#1f1f1f]"}  rounded-[500px]`} onClickCapture={e => setBranquear(false)} onMouseEnter={e => setBranquear(true)} onMouseLeave={e => setBranquear(false)}>
@@ -49,11 +49,11 @@ function NavBar() {
             </div>
 
             <div className='flex'>
-                <button className='py-[8px] font-[600] text-[17px] text-[#b3b3b3] px-[32px] cursor-pointer hover:text-[white] ease-linear duration-100 hover:scale-[1.1]'>
+                <button className='py-[8px] font-[600] text-[17px] text-[#b3b3b3] px-[32px] cursor-pointer hover:text-[white] ease-linear hover:scale-[1.05]'>
                     Inscrever-se
                 </button>
 
-                <button className='bg-white font-[550] text-[17px] py-[12px] px-[32px] cursor-pointer rounded-[99999px] hover:scale-[1.1] ease-linear duration-100'>
+                <button className='bg-white font-[550] text-[17px] py-[12px] px-[32px] cursor-pointer rounded-[99999px] hover:scale-[1.05] ease-linear '>
                     Entrar
                 </button>
 
